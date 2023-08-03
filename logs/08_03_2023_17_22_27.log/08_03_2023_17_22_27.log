@@ -1,0 +1,14 @@
+[ 2023-08-03 17:22:29,310 ] 18 root - INFO - [data_validation.py] There is no problem with the data. So, we can continue further. The data passed 'validate()'
+[ 2023-08-03 17:22:29,310 ] 19 root - INFO - Data Validation is completed successfully
+[ 2023-08-03 17:22:29,310 ] 18 root - INFO - [data_transformation.py] While Handling the data, there's no duplicates. The Data passed the Duplicates Handling phase
+[ 2023-08-03 17:22:29,310 ] 30 root - INFO - [data_transformation.py] Got Datatypes of each column successfully
+[ 2023-08-03 17:22:29,310 ] 38 root - INFO - [data_transformation.py] There is no problem with the datatype of each column. The data passed 'get_check_dtypes()' successfully.
+[ 2023-08-03 17:22:34,660 ] 21 root - INFO - Model saved in the ./data/model/model_y1.pkl directory successfully
+[ 2023-08-03 17:22:34,661 ] 25 root - INFO - [model_trainer.py] Models for Y1 are Saved Successfully
+[ 2023-08-03 17:22:34,785 ] 18 root - INFO - [data_validation.py] There is no problem with the data. So, we can continue further. The data passed 'validate()'
+[ 2023-08-03 17:22:34,785 ] 19 root - INFO - Data Validation is completed successfully
+[ 2023-08-03 17:22:34,786 ] 18 root - INFO - [data_transformation.py] While Handling the data, there's no duplicates. The Data passed the Duplicates Handling phase
+[ 2023-08-03 17:22:34,787 ] 30 root - INFO - [data_transformation.py] Got Datatypes of each column successfully
+[ 2023-08-03 17:22:34,787 ] 38 root - INFO - [data_transformation.py] There is no problem with the datatype of each column. The data passed 'get_check_dtypes()' successfully.
+[ 2023-08-03 17:22:44,177 ] 21 root - INFO - Model saved in the ./data/model/model_y2.pkl directory successfully
+[ 2023-08-03 17:22:44,177 ] 34 root - INFO - [model_trainer.py] Models for Y2 are Saved Successfully
