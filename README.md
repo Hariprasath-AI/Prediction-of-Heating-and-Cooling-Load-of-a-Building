@@ -1,3 +1,7 @@
+# Dataset Link
+https://archive.ics.uci.edu/dataset/242/energy+efficiency
+# Notebook Link
+
 # Description
 ### We perform energy analysis using 12 different building shapes simulated in Ecotect. The buildings differ with respect to the glazing area, the glazing area distribution, and the orientation, amongst other parameters. 
 ### We simulate various settings as functions of the afore-mentioned characteristics to obtain 768 building shapes. 
