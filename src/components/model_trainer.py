@@ -16,7 +16,7 @@ class ModelTrainer:
 
     def trainer_y1():
         ModelTrainer.create_dir()
-        data = DataTransformation.get_check_dtypes()
+        data = DataTransformation.final()
         temp_y1 = pd.DataFrame(data)
         # Creating model for prediction of Y1
         X, Y = temp_y1.drop(['Y1','Y2'],axis=1), temp_y1['Y1']
@@ -25,7 +25,7 @@ class ModelTrainer:
         logging.info("[model_trainer.py] Models for Y1 are Saved Successfully")
 
     def trainer_y2():
-        data = DataTransformation.get_check_dtypes()
+        data = DataTransformation.final()
         temp_y2 = pd.DataFrame(data)
         # Creating model for prediction of Y2
         X, Y = temp_y2.drop(['Y2'],axis=1), temp_y2['Y2']

@@ -1,0 +1,14 @@
+[ 2023-08-04 11:09:49,542 ] 224 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.35:5000
+[ 2023-08-04 11:09:49,542 ] 224 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2023-08-04 11:12:19,343 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Aug/2023 11:12:19] "GET / HTTP/1.1" 200 -
+[ 2023-08-04 11:12:19,423 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Aug/2023 11:12:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-08-04 11:12:30,190 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Aug/2023 11:12:30] "GET / HTTP/1.1" 200 -
+[ 2023-08-04 11:12:30,220 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Aug/2023 11:12:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-08-04 11:13:25,250 ] 27 root - INFO - Model Loaded in the ./data/model/model_y1.pkl directory successfully
+[ 2023-08-04 11:13:25,250 ] 15 root - INFO - [model_loader.py] Model for Y1 is already there. So, loaded from default location
+[ 2023-08-04 11:13:25,259 ] 27 root - INFO - Model Loaded in the ./data/model/model_y2.pkl directory successfully
+[ 2023-08-04 11:13:25,259 ] 32 root - INFO - [model_loader.py] Model for Y2 is already there. So, loaded from default location
+[ 2023-08-04 11:13:25,266 ] 224 werkzeug - INFO - 127.0.0.1 - - [04/Aug/2023 11:13:25] "POST /predict HTTP/1.1" 200 -
