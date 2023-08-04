@@ -1,0 +1,20 @@
+[ 2023-08-04 11:53:53,825 ] 18 root - INFO - [data_validation.py] There is no problem with the data. So, we can continue further. The data passed 'validate()'
+[ 2023-08-04 11:53:53,825 ] 19 root - INFO - Data Validation is completed successfully
+[ 2023-08-04 11:53:53,827 ] 18 root - INFO - [data_transformation.py] While Handling the data, there's no duplicates. The Data passed the Duplicates Handling phase
+[ 2023-08-04 11:53:53,828 ] 30 root - INFO - [data_transformation.py] Got Datatypes of each column successfully
+[ 2023-08-04 11:53:53,829 ] 38 root - INFO - [data_transformation.py] There is no problem with the datatype of each column. The data passed 'get_check_dtypes()' successfully.
+[ 2023-08-04 11:53:53,833 ] 74 root - INFO - [data_transformation.py] The data successfully passed 'final' function
+[ 2023-08-04 11:53:59,829 ] 21 root - INFO - Model saved in the ./data/model/model_y1.pkl directory successfully
+[ 2023-08-04 11:53:59,829 ] 25 root - INFO - [model_trainer.py] Models for Y1 are Saved Successfully
+[ 2023-08-04 11:53:59,843 ] 27 root - INFO - Model Loaded in the ./data/model/model_y1.pkl directory successfully
+[ 2023-08-04 11:53:59,843 ] 22 root - INFO - [model_loader.py] Model is not present is the default location. So, we're going to develop a model
+[ 2023-08-04 11:54:00,073 ] 18 root - INFO - [data_validation.py] There is no problem with the data. So, we can continue further. The data passed 'validate()'
+[ 2023-08-04 11:54:00,073 ] 19 root - INFO - Data Validation is completed successfully
+[ 2023-08-04 11:54:00,073 ] 18 root - INFO - [data_transformation.py] While Handling the data, there's no duplicates. The Data passed the Duplicates Handling phase
+[ 2023-08-04 11:54:00,077 ] 30 root - INFO - [data_transformation.py] Got Datatypes of each column successfully
+[ 2023-08-04 11:54:00,077 ] 38 root - INFO - [data_transformation.py] There is no problem with the datatype of each column. The data passed 'get_check_dtypes()' successfully.
+[ 2023-08-04 11:54:00,078 ] 74 root - INFO - [data_transformation.py] The data successfully passed 'final' function
+[ 2023-08-04 11:54:12,315 ] 21 root - INFO - Model saved in the ./data/model/model_y2.pkl directory successfully
+[ 2023-08-04 11:54:12,315 ] 34 root - INFO - [model_trainer.py] Models for Y2 are Saved Successfully
+[ 2023-08-04 11:54:12,335 ] 27 root - INFO - Model Loaded in the ./data/model/model_y2.pkl directory successfully
+[ 2023-08-04 11:54:12,335 ] 39 root - INFO - [model_loader.py] Model is not present is the default location. So, we're going to develop a model

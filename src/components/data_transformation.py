@@ -63,9 +63,13 @@ class DataTransformation:
                     data.drop([first], axis=1, inplace=True)
             except:
                 pass
+        # We, know that X6 feature is not useful for Y1 and Y2 as well as other independent features. So we czn remove directly.
+        data.drop(['X6'],axis=1,inplace=True)
         return data
 
     def final():
         data = DataTransformation.get_check_dtypes()
         final_data = DataTransformation.dimensionality_reduction(0.95, data)
+        final_data.drop_duplicates(inplace=True)
+        logging.info(f"[data_transformation.py] The data successfully passed 'final' function")
         return final_data
