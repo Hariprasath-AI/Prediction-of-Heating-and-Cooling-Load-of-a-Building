@@ -6,8 +6,8 @@ from src.logger import logging
 from src.exceptions import CustomException 
 
 '''
-A class named 'DataValidation' contains the method/function 'validate' to check whether the data is in .csv format or not.
-If it is not in .csv format, then the data is not imported and throws an exception and logged.
+A class named 'DataValidation' contains the method/function 'validate' to check whether the data is in .xlsx format or not.
+If it is not in excel format, then the data is not imported and throws an exception and logged.
 The Project got struck here.
 '''
 class DataValidation:

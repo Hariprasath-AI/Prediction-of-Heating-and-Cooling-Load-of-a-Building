@@ -1,7 +1,5 @@
 # The Packages/Methods which are necessary for Model training phase are imported here.
-import os
 import pandas as pd
-import numpy as np
 from src.logger import logging 
 from src.exceptions import CustomException 
 from src.components.data_transformation import DataTransformation
@@ -9,13 +7,12 @@ from catboost import CatBoostRegressor
 from src.utils import Utility
 
 # All operations related to Model Training phase are carried out inside the class 'ModelTrainer'
-# We already know that, CatBoost Regressor performs well. Here, we're going to develop 2 models for Y1 and Y2 Prediction.
+# We already know that, CatBoost Regressor performs well. Here, we're going to develop 2 models for Y1 and Y2 individually.
 class ModelTrainer:
-    def create_dir():
-        Utility.create_directory('./data/model')
-
+    # 'trainer_y1' function is responsible for splitting independent and dependent variable and fit into CatBoost Regressor Algorithm.
+    # Then, the model will be saved in a particular model.
     def trainer_y1():
-        ModelTrainer.create_dir()
+        Utility.create_directory('./data/model')
         data = DataTransformation.final()
         temp_y1 = pd.DataFrame(data)
         # Creating model for prediction of Y1
@@ -24,6 +21,8 @@ class ModelTrainer:
         Utility.save(model_y1 , './data/model/model_y1.pkl')
         logging.info("[model_trainer.py] Models for Y1 are Saved Successfully")
 
+    # 'trainer_y2' function is responsible for splitting independent and dependent variable and fit into CatBoost Regressor Algorithm.
+    # Then, the model will be saved in a particular model.
     def trainer_y2():
         data = DataTransformation.final()
         temp_y2 = pd.DataFrame(data)

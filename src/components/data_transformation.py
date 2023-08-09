@@ -42,8 +42,9 @@ class DataTransformation:
             logging.info(f"[data_transformation.py] The data holds non-numeric feature, then the data is not moved further in this project. Please resolve this!!")
 
     '''
-    The function 'dimensionality_reduction' removes the any one of the feature having high correlation to each other with respect to target variable. Here, X1 and X2 are higly correlated. 
-    X1 having less correlation on target varibales compared to X2. So, we're going to remove X1 only.
+    The function 'dimensionality_reduction' removes the any one of the feature having high correlation to each other with respect to target variable. 
+    Here, X1 and X2 are higly correlated. 
+    X1 having less correlation on target varibales compared to X2. So, we're going to remove X1 only. In same way, x4 also.
     '''
     def dimensionality_reduction(threshold, data):
         temp = pd.DataFrame(data.corr())
@@ -67,6 +68,7 @@ class DataTransformation:
         data.drop(['X6'],axis=1,inplace=True)
         return data
 
+    # The function 'final' returns the data after dimensionality reduction.
     def final():
         data = DataTransformation.get_check_dtypes()
         final_data = DataTransformation.dimensionality_reduction(0.95, data)
